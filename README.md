@@ -4,11 +4,11 @@
 
 **Thành viên thực hiện**:
 
-* Hảo
-* Na
-* Duy
-* Việt
-* Tùng
+* Nguyễn Ngọc Hảo
+* Nguyễn Thị Lê Na
+* Nguyễn Minh Duy
+* Bùi Quốc Việt
+* Nguyễn Đăng Tùng
 
 ## 📌 Mô tả dự án
 
