@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>Website integrated Chatbot</title>
+</head>
+<body>
+  <!-- Nội dung website -->
+  
+  <!-- Khu vực chatbot -->
+  <div id="chatbot-container"></div>
+  
+  <!-- Script tích hợp Chainlit -->
+  <script src="http://localhost:8000/copilot/index.js"></script>
+  <script>
+    window.addEventListener("chainlit-call-fn", (e) => {
+      const { name, args, callback } = e.detail;
+      callback("You sent: " + args.msg);
+    });
+    
+    window.mountChainlitWidget({
+      chainlitServer: "http://localhost:8000",
+      elementId: "chatbot-container" // ID của div nơi muốn hiển thị chatbot
+    });
+  </script>
+</body>
+</html>
