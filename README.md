@@ -22,7 +22,6 @@
 
   * Tư vấn loại bất động sản phù hợp
   * Giải đáp nhanh thông tin cơ bản về quy trình mua bán
-  * Hướng dẫn sử dụng website
 * 🧑‍💼 **Tài khoản người dùng**: Đăng ký, đăng nhập, quản lý hồ sơ cá nhân
 * 📊 **Trang admin**: Quản lý người dùng và bài đăng
 * 📱 **Responsive UI**: Giao diện tương thích mọi thiết bị
@@ -32,8 +31,7 @@
 * **Frontend**: HTML, CSS, JavaScript, Bootstrap
 * **Backend**: Java Spring Boot
 * **Database**: MySQL
-* **Chatbot**: Dialogflow / Rasa / AI API tùy chọn
-* **Triển khai**: Docker, Heroku hoặc VPS
+* **Chatbot**: ChainLit/ Groq API
 
 ## 📂 Cấu trúc thư mục
 
