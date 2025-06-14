@@ -922,21 +922,6 @@
             </div>
         </footer>
     </div>
-    <div id="chatbot-container"></div>
-
-    <!-- Script tích hợp Chainlit -->
-    <script src="http://localhost:8000/copilot/index.js"></script>
-    <script>
-        window.addEventListener("chainlit-call-fn", (e) => {
-            const { name, args, callback } = e.detail;
-            callback("You sent: " + args.msg);
-        });
-
-        window.mountChainlitWidget({
-            chainlitServer: "http://localhost:8000",
-            elementId: "chatbot-container" // ID của div nơi muốn hiển thị chatbot
-        });
-    </script>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
