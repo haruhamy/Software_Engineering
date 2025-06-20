@@ -22,7 +22,7 @@
 
   * Tư vấn loại bất động sản phù hợp
   * Giải đáp nhanh thông tin cơ bản về quy trình mua bán
-* 🧑‍💼 **Tài khoản người dùng**: Đăng ký, đăng nhập, quản lý hồ sơ cá nhân
+* 🧑‍💼 **Tài khoản**: Đăng nhập, quản lý hồ sơ cá nhân
 * 📊 **Trang admin**: Quản lý người dùng và bài đăng
 * 📱 **Responsive UI**: Giao diện tương thích mọi thiết bị
 
@@ -71,20 +71,21 @@
 
 ## 🧪 Tài khoản demo
 
-* **Tài khoản người dùng**:
-
-  * Email: [user@example.com](mailto:user@example.com)
-  * Mật khẩu: 123456
 
 * **Tài khoản quản trị**:
 
-  * Email: [admin@example.com](mailto:admin@example.com)
+  * Tên đăng nhập: nguyenvana
+  * Mật khẩu: 123456
+
+* **Tài khoản nhân viên**:
+
+  * Tên đăng nhập: nguyenvanb 
   * Mật khẩu: admin123
 
 ## 📌 Ghi chú
 
-* Chatbot đang ở giai đoạn thử nghiệm, nhóm sẽ tiếp tục huấn luyện để cải thiện độ chính xác.
 * Hệ thống có thể mở rộng để tích hợp bản đồ, định giá tài sản AI, và CRM cho nhân viên sale.
+*  Chatbot đang ở giai đoạn thử nghiệm, nhóm sẽ tiếp tục huấn luyện để cải thiện độ chính xác.
 
 ## 📧 Liên hệ nhóm
 
